@@ -19,7 +19,8 @@ represent bits. We can choose a threshold value of the voltage, and denote any
 voltage over that threshold as a bit in state 1, and similarly any voltage below
 as a bit in state 0.
 
-<img src="pics/voltage_threshold.svg" width="700px">
+<img src="pics/vol
+e_threshold.svg" width="700px">
 
 The power of quantum computers comes from the different way in which they
 represent and manipulate information. Quantum computers use special bits, called
@@ -267,8 +268,8 @@ information about the probability of each of those outcomes:
 $$
 \begin{eqnarray}
  \hbox{Prob(measure and observe } \vert 0\rangle) &=& \vert \alpha\vert ^2, \\
- \hbox{Prob(measure and observe } \vert 1\rangle) &=& \vert \beta\vert ^2. \\ \tag{12}
-\end{eqnarray}
+ \hbox{Prob(measure and observe } \vert 1\rangle) &=& \vert \beta\vert ^2. \\ 
+\end{eqnarray} \tag{12}
 $$
 
 This notation, $\vert \cdot\vert ^2$ is called the "mod squared", and is simply
@@ -334,8 +335,8 @@ vector $\vert \psi\rangle$ to produce another vector $\vert \psi^\prime\rangle$:
 
 $$
 \begin{equation}
- \vert \psi\rangle = \alpha \vert 0\rangle + \beta \vert 1\rangle \rightarrow \vert \psi^\prime\rangle = \alpha^\prime \vert 0\rangle + \beta^\prime \vert 1\rangle. \tag{13}
-\end{equation}
+ \vert \psi\rangle = \alpha \vert 0\rangle + \beta \vert 1\rangle \rightarrow \vert \psi^\prime\rangle = \alpha^\prime \vert 0\rangle + \beta^\prime \vert 1\rangle. 
+\end{equation} \tag{13}
 $$
 
 What sends a 2-dimensional vector to another 2-dimensional vector?
@@ -343,8 +344,8 @@ Multiplication by a $2 \times 2$ matrix, $U$:
 
 $$
 \begin{equation}
-\vert \psi^\prime \rangle = U \vert \psi\rangle. \tag{14}
-\end{equation}
+\vert \psi^\prime \rangle = U \vert \psi\rangle. 
+\end{equation} \tag{14}
 $$
 
 But not just any matrix will do. The matrix must preserve the normalization of
